@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.main{
+   height: 100%;
+}
+
+
+.hero{
+    height: 70px;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+}
+nav a{
+    color:cadetblue;
+    margin: 2vw;
+    text-decoration: none;
+    font-size: 2vw;
+    margin-right: 5vw;
+    font-weight: 800;
+    display: none;
+   
+}
+
+nav a:hover{
+    color: aquamarine;
+}
+
+nav i{
+    margin-left: 15vw;
+    margin-top: 1vw;
+    font-size: 3vw;
+    color:white;
+    margin-right: 2vw;
+}
+.info{
+    height: 90vh;
+    background-color:black;
+}
+
+.info h1{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 13vw;
+    font-size: 7vw;
+    
+}
+
+.info h3{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 3vw;
+    font-size: 2vw;
+}
+
+.info h1 span{
+    color: cadetblue;
+}
+
+.info h1 span:hover{
+    color: aquamarine;
+}
+.info a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.info a:hover{
+    color: aquamarine;
+}
+.main .icons{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 3vw;
+    padding: 3vw;
+    font-size: 3.2vw;
+}
+
+.icons p{
+    font-size: 2vw;
+    padding-top:2vw;
+    font-weight: 400;
+    display: none;
+}
+
+p i{
+    color: cadetblue;
+    background-color: black;
+}
+
+.about{
+    height:90vh;
+    background-color: black;
+    color: white;
+}
+
+.about h1{
+    font-size: 5vw;
+    text-align: center;
+    color: cadetblue;
+    padding-top: 3vw;
+}
+.about h1:hover{
+    color: aquamarine;
+}
+
+.about{
+    height:100vh;
+    background-color: black;
+    color: white;
+}
+
+.about p{
+    margin-top: 4vw;
+    font-size: 1.7vw;
+    padding: 3vw;
+}
+
+.about p span{
+    color:cadetblue;
+    font-weight: 700;
+}
+.about p span:hover{
+    color:aquamarine;
+    font-weight: 700;
+}
+
+.projects{
+    height: 100vh;
+    background-color:black;
+   
+}
+
+.images{
+    display: flex;
+
+}
+
+.projects h2{
+    color: cadetblue;
+    text-align: center;
+    font-size: 4vw;
+    padding-top:2.4vw;
+}
+
+.projects .left{
+    height: 27vw;
+    border: 1px solid black;
+    background-color:cadetblue;
+    width: 45vw;
+    margin-top: 5vw;
+    border-radius: 3vw;
+    margin-left: 4vw;
+}
+
+.projects .left img{
+    height: 20vw;
+    margin-top: 7vw;
+    margin-left: 8vw;
+    padding-bottom: 5vw;
+ 
+}
+.projects .right{
+    height: 27vw;
+    width: 45vw;
+    border: 1px solid black;
+    background-color:cadetblue;
+   margin-top: 5vw;
+   border-radius: 3vw;
+   margin-left: 3vw;
+}
+
+.projects h2:hover{
+
+    color: aquamarine;
+}
+
+
+.projects .right:hover{
+    background-color: aquamarine;
+}
+
+.projects .left:hover{
+    background-color: aquamarine;
+}
+.projects .right img{
+    height: 20vw;
+     margin-top: 7vw;
+     margin-left: 8vw;
+     padding-bottom: 5vw;
+     
+}
+.projects .left a{
+
+    position: relative;
+    bottom:2vw;
+    right: 18vw;
+    text-decoration: none;
+    color: black;
+    font-size: 1.7vw;
+    border: 1px solid black;
+    padding: .5vw;
+    font-weight: 400;
+    background-color: whitesmoke;  
+    border-radius: 2vw;
+}
+
+.projects .left a:hover{
+    background-color: cyan;
+}
+
+.projects .right a:hover{
+    background-color: cyan;
+}
+
+.projects .right a{
+    background-color: whitesmoke;  
+    border-radius: 2vw;
+    position: relative;
+    bottom:2vw;
+    right: 18vw;
+    text-decoration: none;
+    color: black;
+    font-size: 1.7vw;
+    font-weight: 400;
+    border: 1px solid black;
+    padding: .5vw;
+}
+
+.end{
+    height: 60vh;
+    
+}
+
+.end h3{
+    text-align: center;
+    font-size: 8vw;
+    padding-top: 19vw;
+     color: cadetblue;
+}
+
+.end h3:hover{
+    color: aquamarine;
+}
+.end h5{
+    text-align: center;
+    position: relative;
+    top:18vw;
+    border: 1px solid;
+    background-color: white;
+    color: black;
+    padding: .6vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:769px){
+    .hero{
+        height: 50px;
+    }
+
+    .hero nav a{
+        font-size: 3vw;
+        padding-top: 3.2vw;
+    }
+
+    nav i{
+        font-size: 5vw;
+        margin-top: 3.4vw;
+    }
+
+    .info h1{
+        font-size: 9vw;
+        padding-top:35vw;
+    }
+    .info h3{
+        font-size: 4vw;
+        padding-top:10vw;
+    }
+   
+    .main .icons{
+        font-size: 5.7vw;
+        padding-top: 9vw;
+    }
+
+    .about{
+        height:90vh;    
+    }
+
+    .about h1{
+       font-size:8vw;
+    }
+
+    .about p{
+        font-size: 3.3vw;
+        padding-top: 15vw;
+        margin-top: 2vw;
+    }
+
+    .images{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects h2{
+        font-size: 9vw;
+        padding-top: 3vw;
+    }
+
+    .projects .left{
+        margin-top: 18vw;
+        width: 80vw;
+        margin-left: 9vw;
+        height: 40vw;
+    }
+
+    .projects .left img{
+       width: 40vw;
+       height: 30vw;
+       margin-left: 19vw;
+    }
+
+    .projects .right{
+        height: 40vw;
+        margin-top: 20vw;
+        width: 80vw;
+        margin-left: 9vw;
+        
+    }
+
+    .projects .right img{
+        width: 40vw;
+        height: 30vw;
+        margin-left: 19vw;
+     }
+
+     .projects .right a{
+        position: relative;
+        top: 1vw;
+        right:25vw;
+        font-size: 3vw;
+     }
+ 
+     .projects .left a{
+        position: relative;
+        top: 1vw;
+        right:25vw;
+        font-size: 3vw;
+     }
+
+     .end{
+        height:50vw
+     }
+
+     .end h3{
+        font-size: 10vw;
+        padding-top: 65vw;
+     }
+
+     .end h5{
+        margin-top: 89vw;
+     }
+ 
+}
+
